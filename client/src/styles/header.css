@@ -1,0 +1,43 @@
+/* styles/header.css */
+.header {
+  /* bg-red text-white w-screen h-24 items-center flex justify-between rounded-br-3xl rounded-bl-3xl px-10 */
+  background-color: #ed5353;
+  color: white;
+  width: 100vw;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 0 2rem;
+}
+.header-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.login-button {
+  width: 6rem;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  height: 2.5rem;
+  cursor: pointer;
+
+}
+
+.signup-button {
+  width: 6rem;
+  background-color: white;
+  color: #ed5353;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.logout-button {
+  border: none;
+  cursor: pointer;
+
+}

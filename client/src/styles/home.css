@@ -1,0 +1,155 @@
+.home {
+  /* w-[60%] max-h-screen mx-auto */
+  width: 90%;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+.home_search {
+  height: 15rem;
+  margin: 1.25rem 0;
+  padding: 1.5rem;
+  box-shadow: 0 20px 50px rgba(255, 0, 0, 0.3);
+  /* shadow-[0_8px_30px_rgb(255,0,0,0.30)] */
+}
+
+.home_search_box {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+.home_search_box input {
+  height: 2.5rem;
+  width: 100%;
+  border: 2px solid rgba(227, 227, 227, 1);
+  padding-left: 2.8rem;
+  border-radius: 0.5rem;
+}
+.search-icon {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  color: rgb(107 114 128);
+  font-size: 1.4rem;
+}
+
+.home_skill {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  margin-top: 1rem;
+}
+.skill_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.skills_list {
+  margin: 0 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.skill_dropdown select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #cecece;
+  background-color: transparent;
+}
+.skills_list {
+  display: flex;
+  justify-content: center;
+}
+.skills_list span {
+  height: 1rem;
+  background-color: #ffeeee;
+  margin: 0 0.3rem;
+  display: inline-block;
+  height: 30px;
+  padding: 0.3rem;
+  min-width: 7vw;
+  font-size: 0.7rem;
+  position: relative;
+}
+.close-icon {
+  position: absolute;
+  top: 1%;
+  font-size: 20px;
+  right: 0%;
+  background-color: #ed5353;
+  height: 100%;
+  width: 1.5vw;
+  color: white;
+}
+.addJob_button {
+  background-color: #ed5353;
+  color: white;
+  display: flex;
+  padding: 0 0.5rem;
+  min-width: 7vw;
+  max-width: 15vw;
+  height: 5vh;
+  align-items: center;
+  border-radius: 8.07px;
+  border: none;
+  cursor: pointer;
+}
+.addJob_button .icon {
+  color: white;
+  font-size: 1rem;
+}
+.clear_button {
+  color: #ed5353;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.clear-button-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .home_search_box {
+    width: 100%;
+  }
+
+  .skill_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills_list {
+    margin: 0;
+  }
+
+  .clear-button-div {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .home_search_box input {
+    padding-left: 1.2rem;
+  }
+
+  .skills_list span {
+    min-width: 5vw;
+  }
+
+  .addJob_button {
+    max-width: 10vw;
+  }
+}
+@media (max-width: 576px) {
+  .skill_section {
+    display: flex;
+    flex-direction: column;
+  }
+}

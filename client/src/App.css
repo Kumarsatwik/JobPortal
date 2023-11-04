@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+.flex {
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.text-4xl {
+  font-size: 2.25rem;
+}
+.text-3xl {
+  font-size: 1.875rem; /* Equivalent to 30px */
+}
+.font-bold {
+  font-weight: bold;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-br-3xl {
+  border-bottom-right-radius: 1rem;
+}
+
+.rounded-bl-3xl {
+  border-bottom-left-radius: 1rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.heading {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 1.25rem 0;
+}
+.gap-4 {
+  gap: 1rem; /* Equivalent to 4px */
+}
+
+.gap-5 {
+  gap: 1.25rem; /* Equivalent to 20px */
+}
+.px-10 {
+  padding-left: 2.5rem; /* Equivalent to 10px */
+  padding-right: 2.5rem; /* Equivalent to 10px */
+}
+
+.bg-red {
+  background-color: #ed5353;
+}
+
+.text-white {
+  color: white;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.h-24 {
+  height: 6rem; /* You can adjust the height as needed */
+}
+
+.button {
+  background-color: #ed5353;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #ed5353;
+  border-color: #ed5353;
+}
+.add-job-button {
+  /* bg-[#ed5353] text-white text-sm w-28 font-medium rounded-lg  */
+  background-color: #ed5353;
+  color: white;
+  font-size: 1rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  height: 2rem;
+}
+.header-user{
+  height: 2.5rem;
+  width: 2.5rem;
+}

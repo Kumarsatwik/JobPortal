@@ -1,0 +1,99 @@
+/* styles/job-list.css */
+
+.job-list-container {
+  max-width: 90%;
+  height: 15vh;
+  /* margin-top: 10px; */
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  box-shadow: 0 8px 30px rgba(255, 0, 0, 0.3);
+}
+
+.job-list-logo {
+  height: 56px;
+  width: 56px;
+}
+
+.job-list-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.job-list-icons {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 5px;
+}
+.people_list {
+  display: flex;
+  align-items: center;
+}
+.ruppes_list {
+  display: flex;
+  align-items: center;
+}
+.country_icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.country_icon img {
+  max-height: 3rem;
+  max-width: 3rem;
+}
+.job-status {
+  color: #ed5353;
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.job-category {
+  background-color: #ffcccc;
+  padding: 4px;
+}
+.job-category-list {
+  display: flex;
+  gap: 20px;
+  font-size: 0.8rem;
+}
+.job-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.job-details {
+}
+
+.edit-button {
+  border: 2px solid #ed5353;
+  color: #ed5353;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.view-details-button {
+  background-color: #ed5353;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (width < 768px) {
+  .job-list-container {
+    margin: 20px auto;
+    width: 90%;
+  }
+}

@@ -17,8 +17,16 @@ const jobSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  jobDuration: {
+    type: String,
+  },
   aboutCompany: {
     type: String,
+    required: true,
+  },
+  no_of_employees: {
+    type: String,
+    enum: ["0-10", "11-50", "51-100", "111-500", "501-1000", "1000+"],
     required: true,
   },
   salary: {
@@ -39,12 +47,16 @@ const jobSchema = new mongoose.Schema({
     enum: ["Home", "Office"],
     required: true,
   },
-  Skill: {
+  skills: {
     type: [String],
     required: true,
   },
   information: {
     type: String,
+  },
+  employer: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
     required: true,
   },
 });

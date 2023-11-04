@@ -1,0 +1,111 @@
+.register {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4f4f4;
+}
+.register__form {
+  text-align: left;
+  margin: 10rem 3rem;
+}
+.register__form h1 {
+  font-size: 40px;
+}
+.register label {
+  margin-top: 20px;
+}
+.register__form input {
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+.register__form button {
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.register__form button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.register__form a {
+  margin-top: 20px;
+}
+.register__form a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.register__form {
+  margin: 5rem 3rem;
+}
+.register__form h1 {
+  font-size: 40px;
+}
+.register__form form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+  .register label {
+    margin-top: 20px;
+    color: #525252;
+  }
+.register__form input {
+  width: 30rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: 500;
+}
+.register__form input[type="checkbox"] {
+  height: 1rem;
+  width: 0.9rem;
+  margin-right: 0.5rem;
+}
+.register__form label {
+  font-size: 0.9rem;
+}
+.register__form button {
+  width: 12rem;
+  height: 2.8rem;
+  background-color: #ed5353;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.register__form a {
+  text-decoration: underline;
+  color: black;
+  padding-left: 5px;
+}
+
+/* register Poster */
+.register__poster {
+  position: relative;
+  height: 100vh;
+}
+.register__poster img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.register__poster label {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  top: 10px;
+  right: 25%;
+
+  /* background-color: #ed5353; */
+}
