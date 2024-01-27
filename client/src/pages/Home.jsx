@@ -192,7 +192,7 @@ const Home = () => {
           key={job._id}
           data={job}
           loggedIn={loggedIn}
-          user_id={user.id}
+          user_id={user ? user.id : null}
         />
       ))}
     </>
