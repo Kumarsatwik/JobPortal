@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:4000";
+const baseURL = import.meta.env.VITE_SERVER_URL;
 export const signupAPI = async (email, password, phone, name) => {
   //   console.log(name, email, phone, password);
   try {
