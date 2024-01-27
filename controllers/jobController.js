@@ -58,7 +58,8 @@ const getAllJob = async (req, res, next) => {
 const getAllSkills = async (req, res, next) => {
   Job.distinct("skills")
     .then((skills) => {
-      res.status(200).json(skills);
+      const distinctSkills = [...new Set(skills)];
+      res.status(200).json(distinctSkills);
     })
     .catch((err) => {
       res.status(500).json({ error: err.message });
