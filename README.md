@@ -5,3 +5,12 @@ Job Portal Using Mern stack
 - Implementing secure user authentication and validation with JOI, and enhancing data security using JWT tokens .
 - The user has the ability to both create and view job postings.
 - Developed a feature for user who can search job using different filters based on Job Role name or Technical Skills
+
+# Installation
+- Backend
+  - npm install
+  - npm start
+-Frontend
+ - cd client
+ - npm install
+ - npm start
