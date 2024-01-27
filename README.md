@@ -10,7 +10,9 @@ Job Portal Using Mern stack
 - Backend
   - npm install
   - npm start
--Frontend
+    
+- Frontend
+  
  - cd client
  - npm install
  - npm start
