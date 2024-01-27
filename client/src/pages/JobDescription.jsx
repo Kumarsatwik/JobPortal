@@ -22,7 +22,7 @@ const JobDescription = () => {
         <div className="containner">
           <div className="containnerInnerDiv">
             <p>
-              {data.jobPosition} {data.jobType} Job/Internship at{" "}
+              {data.jobPosition} {data.jobType} Job at{" "}
               {data.companyName}
             </p>
           </div>
@@ -92,9 +92,7 @@ const JobDescription = () => {
             <div className="my-5">
               <p>Additional Information</p>
               <p>
-                Stipend structure: This is a performance-based internship. In
-                addition to the minimum-assured stipend, you will also be paid a
-                performance-linked incentive (₹ 2500 per design).
+                {data.information}
               </p>
             </div>
           </div>
