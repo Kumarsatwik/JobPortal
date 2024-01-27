@@ -7,6 +7,8 @@ Job Portal Using Mern stack
 - Developed a feature for user who can search job using different filters based on Job Role name or Technical Skills
 
 # Installation
+- Clone this repository
+
 - Backend
   - npm install
   - npm start
@@ -14,4 +16,4 @@ Job Portal Using Mern stack
 - Frontend
    - cd client
    - npm install
-   - npm start
+   - npm run dev
