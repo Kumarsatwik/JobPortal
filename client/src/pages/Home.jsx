@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import { BiSearch } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { BiPlus } from "react-icons/bi";
-import JobList from "../components/jobList";
+import JobList from "../components/JobList";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { listJob, listSkills } from "../reducer/jobSlice";
